@@ -1,0 +1,22 @@
+{
+  "name": "personal-webiste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vane-Toro/personal-website.git"
+  },
+  "author": "Vane-Toro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vane-Toro/personal-website/issues"
+  },
+  "homepage": "https://github.com/Vane-Toro/personal-website#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
