@@ -1,0 +1,29 @@
+html {
+  font-size: 16px; }
+  html h1 {
+    font-family: "Josefin Sans", sans-serif; }
+  html h3,
+  html p {
+    font-family: "Roboto", sans-serif; }
+  html a {
+    color: #2f5d62;
+    text-decoration: none; }
+  html .skills li {
+    list-style: none; }
+    html .skills li .bar {
+      background-color: #2f5d62;
+      height: 0.75rem;
+      border-radius: 0.5rem; }
+    html .skills li .fill {
+      background-color: #ffe268;
+      height: inherit;
+      border-radius: 0.5rem; }
+  html .skills #js .fill {
+    width: 80%; }
+  html .skills #ruby .fill,
+  html .skills #vue .fill,
+  html .skills #jquery .fill {
+    width: 75%; }
+  html .skills #css .fill,
+  html .skills #html .fill {
+    width: 80%; }

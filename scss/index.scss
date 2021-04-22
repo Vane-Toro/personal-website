@@ -1,0 +1,54 @@
+html {
+  font-size: 16px;
+  $blumine: #2f5d62;
+  $dandelion: #ffe268;
+  $font-primary: 'Josefin Sans', sans-serif;
+  $font-secondary: 'Roboto', sans-serif;
+
+  h1 {
+    font-family: $font-primary;
+  }
+
+  h3,
+  p {
+    font-family: $font-secondary;
+  }
+  a {
+    color: $blumine;
+    text-decoration: none;
+  }
+
+  .skills {
+    li {
+      list-style: none;
+      .bar {
+        background-color: $blumine;
+        height: 0.75rem;
+        border-radius: 0.5rem;
+      }
+      .fill {
+        background-color: $dandelion;
+        height: inherit;
+        border-radius: 0.5rem;
+      }
+    }
+    #js {
+      .fill {
+        width: 80%;
+      }
+    }
+    #ruby,
+    #vue,
+    #jquery {
+      .fill {
+        width: 75%;
+      }
+    }
+    #css,
+    #html {
+      .fill {
+        width: 80%;
+      }
+    }
+  }
+}
